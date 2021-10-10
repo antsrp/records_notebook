@@ -1,0 +1,18 @@
+{
+  "Edit": "Edit",
+  "Undo": "Undo",
+  "Redo": "Redo",
+  "en": "English",
+  "ru": "Russian",
+  "Language": "Language",
+  "Name": "Name",
+  "Desc": "Description",
+  "Add": "Add",
+  "Reset": "Reset filters",
+  "SearchPlaceholder": "Name or description...",
+  "Sure": "Do you really want to delete this note?",
+  "Note": "a note",
+  "Delete": "Delete",
+  "Yes": "Accept",
+  "No": "Decline"
+}
