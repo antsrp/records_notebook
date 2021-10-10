@@ -1,0 +1,52 @@
+
+#addb{
+	background-color: #21D247;
+	margin-left: 0.5em;
+}
+
+#rowremove{
+	padding: 0.25em;
+}
+
+.sized{
+	width: 48%;
+}
+
+.bmarg{
+	margin: 0.5em;
+}
+
+#search-text{
+	padding: 1em;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+#search-text:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e080";
+}
+
+.tname:hover, .tdesc:hover{
+	cursor: pointer;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+	/*right: 8px*/
+    right: 0.5em;
+    position: absolute;
+}
+
+th.sorted[data-order="-1"]::after {
+	content: "▼"
+}
+
+th.sorted[data-order="1"]::after {
+	content: "▲"
+}
